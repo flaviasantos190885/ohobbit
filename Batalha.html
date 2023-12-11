@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>O Hobbit</title>
+</head>
+
+<body class="batalha">
+    <header>
+        <img src="img/logo-batalha.png" alt="logo" width="300">
+        <nav class="navegacao">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="menu-filmes"><a href="#">Filmes</a>
+                    <div class="menu-filmes-suspenso">
+                        <a class="submenu" href="Jornada.html">Uma Jornada Inesperada</a>
+                        <a class="submenu"href="Desolacao.html">A Desolação de Smaug</a>
+                        <a class="submenu"href="Batalha.html">A Batalha dos Cinco Exércitos</a>
+                    </div>
+                </li>
+                <li><a href="Wallpapers.html">Wallpapers</a></li>
+                <li><a href="Serie.html">Série</a></li>
+                <a href="https://google.com.br/" target="_blank"><img src="img/search.png" alt="Pesquisa"
+                        class="pesquisa"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p class="texto">Em O Hobbit: A Batalha dos Cinco Exércitos (2014), após ser expulso da montanha de Erebor, o dragão Smaug ataca com fúria a cidade dos homens que fica próxima ao local. Após muita destruição, Bard (Luke Evans) consegue derrotá-lo. Não demora muito para que a queda de Smaug se espalhe, atraindo os mais variados interessados nas riquezas que existem dentro de Erebor. Entretanto, Thorin (Richard Armitage) está disposto a tudo para impedir a entrada de elfos, anões e orcs, ainda mais por ser tomado por uma obsessão crescente pela riqueza à sua volta. Paralelamente a estes eventos, Bilbo Bolseiro (Martin Freeman) e Gandalf (Ian McKellen) tentam impedir a guerra.</p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer_info">
+            <a href="https://www.youtube.com/watch?v=JY9IP1k2_P4" target="_blank">Assistir Trailer</a>
+        </div>
+        <div>
+            <ul class="redes">
+                <li><a href="https://www.facebook.com/OHobbitFilme/?brand_redir=160617097307237&locale=pt_BR" target="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com/TheHobbitMovie" target="https://twitter.com/TheHobbitMovie"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/thehobbitmovie/" target="https://www.instagram.com/thehobbitmovie/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><button><i class="fa-regular fa-envelope"></i></button></li>
+                <form class="popup-wrapper">
+                    <div class="popup" id="form">
+                        <div class="popup-close">X</div>
+                        <div class="popup-content">
+                            <p class="mensagem">Deixe sua mensagem</p>
+                            <div class="input-group">
+                                <input class="input" type="text" name="nome" id="nome" required>
+                                <label class="label" for="nome">Nome</label>
+                            </div>
+
+                            <div class="input-group">
+                                <input class="input" type="email" name="email" id="email" required>
+                                <label class="label" for="email">E-mail</label>
+                            </div>
+
+                            <div class="input-group">
+                                <textarea class="input" name="msg" rows="5" cols="20"  maxlength="95" id="txtarea" required></textarea>
+                                <label class="label" for="msg">Mensagem</label>
+                            </div>
+                            <button type="submit" id="enviar">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
